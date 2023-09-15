@@ -1,0 +1,13 @@
+
+1.	Cela fonctionne car p est déclaré dans une méthode de la classe Point. 
+	On n’a pas non plus besoin de constructeur dans la class Main pour que cela fonctionne car il y a un constructeur sous-entendu dans la class.
+2.	Il faut rajouter des getters dans la méthode Point.
+3.	Pour que les autres classes ne puissent pas y accéder -> encapsulation 
+4.	Un accesseur est une fonction get. On en a besoin quand on a un argument privé.
+5.	Il faut supprimer la ligne Point p = new Point(); dans la méthode afficher.
+6.	Il faut utiliser les this pour que cela fonctionne correctement et aussi dans le print.
+7.	Il faut créer une variable statique que l’on incrémente dès que le constructeur est appelé.
+8.	Le compilateur les distingue grâce aux paramètres.
+
+----------------------
+
